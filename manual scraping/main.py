@@ -1,9 +1,10 @@
+#main script
 import base64
 import json
 import re
 import os
 
-
+#extract profiles data
 def extract_profile(data):
     return data['data']['user']
 
